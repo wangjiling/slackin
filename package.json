@@ -1,8 +1,8 @@
 {
-  "name": "askcoin",
-  "version": "0.14.0",
+  "name": "slackin",
+  "version": "0.1.0",
   "description": "Public Slack organizations made easy",
-  "repository": "rauchg/slackin",
+  "repository": "wangjiling/slackin",
   "main": "dist/index",
   "files": [
     "dist",
@@ -60,17 +60,5 @@
     "postinstall": "gulp",
     "build": "gulp",
     "start": "gulp && chmod +x bin/slackin && ./bin/slackin"
-  },
-  "now": {
-    "type": "npm",
-    "files": [
-      "bin",
-      "lib",
-      "gulpfile.babel.js"
-    ],
-    "env": [
-      "SLACK_API_TOKEN",
-      "SLACK_SUBDOMAIN"
-    ]
   }
 }
